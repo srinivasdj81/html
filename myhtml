@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Test Page</title>
+    <style>
+        /* Minimal styling to make the test page readable */
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+        code { background: #eee; padding: 2px 5px; }
+        .test-box { border: 2px dashed #ccc; padding: 20px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Main Heading (H1)</h1>
+        <p>This is a <strong>test page</strong> to verify HTML rendering and CSS styles.</p>
+    </header>
+
+    <hr>
+
+    <section id="typography">
+        <h2>Typography & Text</h2>
+        <p>This is a standard paragraph. It contains <em>italicized text</em>, <strong>bold text</strong>, and a <a href="#">hyperlink</a>.</p>
+        <ul>
+            <li>Unordered list item A</li>
+            <li>Unordered list item B</li>
+        </ul>
+    </section>
+
+    <section id="media" class="test-box">
+        <h2>Media Test</h2>
+        <p>Placeholder Image:</p>
+        <img src="https://via.placeholder.com/400x200" alt="Placeholder Image" style="max-width: 100%;">
+    </section>
+
+    <section id="forms">
+        <h2>Form Elements</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="Enter text...">
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="check">
+                <label for="check">Checkbox</label>
+            </div>
+            <br>
+            <button type="button" onclick="alert('Button Clicked!')">Click Me</button>
+        </form>
+    </section>
+
+    <section id="tables">
+        <h2>Data Table</h2>
+        <table border="1" style="width:100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Success</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Test Page Footer</p>
+    </footer>
+
+</body>
+</html>
